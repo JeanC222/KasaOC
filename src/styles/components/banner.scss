@@ -1,0 +1,23 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    img {
+        filter: brightness(70%);
+        object-fit: cover;
+        height: 223px;
+        border-radius: 25px;
+        width: 100%;    
+    }
+
+    p {
+        position: absolute;
+        z-index: 1;
+        color: white;
+        font-size: 48px;
+        font-weight: 500;
+    }
+}
+
+
