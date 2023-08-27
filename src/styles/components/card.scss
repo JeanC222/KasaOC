@@ -31,8 +31,9 @@
         font-weight: 500;
         padding-top: 290px;
     }
+
+    &:hover {
+        scale: (1.03);
+    }
 }
 
-.card:hover {
-    scale: (1.03);
-}

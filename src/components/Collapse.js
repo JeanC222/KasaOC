@@ -1,15 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import arrow from '../assets/img/arrow-open.png'
 
-const Dropdown = ({ children }) => {
+const Collapse = ({ isHidden, setIsHidden }) => {
+    // const [isHidden, setIsHidden] = useState(true);
+    
+    // const toggleVisibility = () => {
+    //     setIsOpen(!isOpen);
+    // }
+
     return (
         <>  
-            <div className='collapse-closed'>
-                <p>{children}</p>
-                <img src={arrow} alt='icône flèche' />
+            <div className='collapse'>
+            {/* {isOpen ? null : props.children} */}
+            <img src={arrow} alt='icône flèche' />
+            {/* onClick={toggleVisibility} */}
             </div>
         </>
     );
 };
 
-export default Dropdown;
+export default Collapse;
