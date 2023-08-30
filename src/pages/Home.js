@@ -3,7 +3,7 @@ import Logo from '../components/Logo';
 import Navigation from '../components/Navigation';
 import Banner from '../components/Banner';
 import backgroundImageHome from '../assets/img/backgroundHome.png'
-import Lodgment from '../components/Lodgment';
+import Cards from '../components/Cards';
 import Footer from '../components/Footer';
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
                 </Banner>
 
                 <section className='card-container'>
-                    <Lodgment />
+                    <Cards />
                 </section>
             </main>
 
