@@ -8,7 +8,7 @@ const Cards = () => {
     <>
       {logements.map((logement) => (
         <div key={logement.id} className='card'>
-          <Link to="/Card">
+           <Link to={`/card/${logement.id}`} key={logement.id}>
           <img src={logement.cover} alt={logement.title} />
           <div className="overlay">
           <h3>{logement.title}</h3>

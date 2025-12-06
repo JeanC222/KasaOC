@@ -24,3 +24,22 @@
     }
 
 }
+
+@media only screen and (max-witdh: 768px) {
+
+    .error-container {
+
+        h1 {
+            font-size: 96px;
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+}
